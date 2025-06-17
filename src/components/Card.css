@@ -1,0 +1,26 @@
+.card {
+    background-color: #22211f;
+    box-shadow: 0 0 1.2rem #4d4d4d;
+}
+
+.card p {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 1.1rem;
+}
+
+.card img {
+    border-radius: 2rem;
+    border: 1.5px solid #9b9b9b;
+}
+
+@media (min-width: 700px) {
+    .card img {
+        border-radius: 1.2rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card img {
+        border-radius: 1.6rem;
+    }
+}
