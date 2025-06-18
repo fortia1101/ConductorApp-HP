@@ -84,12 +84,6 @@ const Main: React.FC = () => {
                     <li className="my-1">本アプリにはユーザーデータを収集する機能は含まれません。</li>
                 </ul>
             </div>
-
-            <div className="flex justify-center">
-                <a href="https://apps.apple.com/jp/app/id6447023792" className="app-link">
-                    <img src="./img/appstore-link-light.svg" />
-                </a>
-            </div>
         </>
     );
 };

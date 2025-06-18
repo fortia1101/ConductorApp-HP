@@ -10,10 +10,6 @@
     text-align: center;
 }
 
-.app-link {
-    filter: drop-shadow(0 0 2em #a2a2a2aa);
-}
-
 @media (min-width: 700px) {
     #root {
         width: 90vw;
