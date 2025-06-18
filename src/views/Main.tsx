@@ -68,7 +68,7 @@ const Main: React.FC = () => {
 
             <div className="my-12">
                 <h2>
-                    <span className="pe-2">📱</span>機能要件
+                    <span className="pe-2">📱</span>動作要件
                 </h2>
                 <ul>
                     <li className="my-1">対応機種：iPhone</li>
