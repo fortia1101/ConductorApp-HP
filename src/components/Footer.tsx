@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer: React.FC = () => {
     return (
-        <div className="flex flex-col items-center gap-12">
+        <div className="flex flex-col items-center gap-12 mt-12">
             <a href="https://apps.apple.com/jp/app/id6447023792" className="app-link">
                 <img src="./img/appstore-link-light.svg" />
             </a>

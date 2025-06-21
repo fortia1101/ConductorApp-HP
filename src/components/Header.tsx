@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header: React.FC = () => {
     return (
-        <div className="header-area flex justify-between align-center">
+        <div className="header-area flex justify-between align-center mb-12">
             <Link to={"/"}>
                 <img className="app-icon rounded-md" src="./img/app-icon.png" />
             </Link>
