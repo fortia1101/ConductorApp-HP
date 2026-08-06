@@ -13,7 +13,9 @@ const Table: React.FC<{ tableItems: TableItem[] }> = ({ tableItems }) => {
                 <tr>
                     <td className="p-3 md:p-4">{item.date}</td>
                     <td className="p-3 md:p-4">{item.text1}</td>
-                    <td className="p-3 md:p-4">{item.text2}</td>
+                    <td className={`p-3 md:p-4 ${item.text2 === "修正済" ? "text-lime-400" : "text-red-400"}`}>
+                        {item.text2}
+                    </td>
                 </tr>
             ))}
         </table>
