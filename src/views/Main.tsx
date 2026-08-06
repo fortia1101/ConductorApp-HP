@@ -23,6 +23,11 @@ const Main: React.FC = () => {
                 <Table
                     tableItems={[
                         {
+                            date: "2026/08/07",
+                            text1: "バージョン2.2.0：コンダクター画面で本数切替時、複数本の変更に時間がかかってしまう問題を解消。動作要件をiOS16.7以上に変更。",
+                            text2: "",
+                        },
+                        {
                             date: "2025/06/04",
                             text1: "バージョン2.1.3：初回起動時に水4本で表示される問題、およびライトモード・ダークモードの切替ができない問題を解消。",
                             text2: "",
@@ -72,7 +77,7 @@ const Main: React.FC = () => {
                 </h2>
                 <ul>
                     <li className="my-1">対応機種：iPhone</li>
-                    <li className="my-1">対応OS：iOS 15.6〜</li>
+                    <li className="my-1">対応OS：iOS 16.7〜</li>
                 </ul>
             </div>
 
