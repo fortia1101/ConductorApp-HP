@@ -13,7 +13,7 @@ sudo npm i && sudo npm run dev
 1. 完成したプログラムをビルドする．
 
 ```sh
-sudo npm i && npm run build
+sudo npm i && sudo npm run build
 ```
 
 2. ビルドしたプログラムを`gh-pages`ブランチに反映する．
